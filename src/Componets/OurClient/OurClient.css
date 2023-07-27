@@ -1,0 +1,77 @@
+.client{
+    /* width: 100%; */
+    padding: 2rem;
+    margin-bottom: 7rem;
+    margin-top: 5rem;
+}
+.card-container-client{
+    /* padding: 5rem; */
+    max-width: auto;
+    /* height: 15rem; */
+    
+    margin: auto;
+    display: grid;
+    border-radius: 5rem 5rem 5rem 5rem;
+    /* background-color: rgb(18, 82, 110); */
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 0px;
+}
+
+
+.card-client{
+    /* border: 1px solid #ccc; */
+    
+    /* box-shadow: 1px 1px 50px 1px rgb(192, 197, 199); */
+    color: #0b0000;
+    height: 17rem;
+    /* border-radius: 100px 100px 100px 100px; */
+    text-align: center;
+
+    /* padding: 2rem; */
+    /* margin: 2rem; */
+    /* justify-content:space-around; */
+    /* gap: 5; */
+}
+
+
+.card-client img{
+    height: 9rem;
+    transform: scale(1);
+    width: 9rem;
+    border-radius: 50%;
+    border: #30a099 2px solid;
+
+}
+.Heading-client{
+    color: #000000;
+    text-align: center;
+    margin: 5rem;
+    /* background-color: rgb(108, 202, 228); */
+}
+@media screen and (max-width: 992px) {
+    .card-container-client{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .card-client{
+        padding: 0rem;
+        margin: 0rem;
+    }
+    .Heading-client{
+        margin: 5rem 1rem 5rem 1rem;
+    }
+}
+/* @media screen and (max-width: 600px) {
+  .card-container-client{
+    max-width:90%;
+    margin: auto;
+  
+    grid-template-columns: repeat(2 , 1fr);
+    row-gap: 0px;
+}
+.Heading{
+    color: #ccc;
+    text-align: center;
+    font-size: 80%;
+    margin: 5rem;
+}
+} */

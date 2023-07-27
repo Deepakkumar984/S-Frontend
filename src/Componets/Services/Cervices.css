@@ -1,0 +1,14 @@
+.C-img{
+    height: 100vh;
+    width: 100%;
+    opacity: 0.5;
+    /* filter: blur(2px); */
+    
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    /* gap: 2rem; */
+    /* padding: 0 2rem; */
+}

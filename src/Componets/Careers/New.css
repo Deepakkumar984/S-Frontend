@@ -1,0 +1,94 @@
+.new{
+    display: flex;
+    position: relative;
+    height: 87vh;
+     margin: 5rem 0 10rem 0;
+     background-image: url(https://img.freepik.com/premium-vector/simple-technology-graphic-background_34173-30.jpg?w=826) ;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+    }
+    .new::after{
+        content: '';
+        display: block;
+
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        background-color: rgb(0, 0, 0 );
+        opacity: 0.2;
+
+    }
+.H{
+    margin: 5rem;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+.new-i{
+    display: flex;
+    position: relative;
+    flex: 1;
+    flex-direction: column;
+    gap: 1rem;
+    padding-top: 8rem;
+    color: #3da09e;
+    margin: 2rem;
+    z-index: 1;
+}
+.new-i h1{
+font-size:  3rem;;
+}
+.new-i p{
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+    }
+.new-r{
+    flex: 1;
+    position: relative;
+    z-index: 1;
+
+    /* top: 10%; */
+
+}
+@media screen and (max-width: 992px) {
+    
+    .new{
+       justify-content: center;
+        }
+
+}
+@media screen and (max-width: 850px) {
+    .new{
+        
+        flex-direction: column;
+   }
+    .new-r img{
+        height: auto;
+        width: auto;
+    }
+    .H{
+        margin: 5rem 0 5rem 0;
+        text-align: center;
+        font-weight: bolder;
+        color: rgb(0, 0, 0);
+    }
+}
+@media screen and (max-width: 600px) {
+    .new{
+        
+        flex-direction: column;
+   }
+    .new-r img{
+        height: 20rem;
+        width: 25rem;
+    }
+    .H{
+        margin: 5rem 0 5rem 0;
+        text-align: center;
+        font-weight: bolder;
+        color: rgb(0, 0, 0);
+    }
+}
